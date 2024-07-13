@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndresApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/blueBlack</item>
+        <item name="colorAccent">@color/tanAccent</item>
+    </style>
+
+    <style name="Theme.Material.Light.Dialog.Alert" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <!-- Customize your alert dialog theme here if needed. -->
+    </style>
+
+    <style name="CustomDatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:windowBackground">@color/tanAccent</item>
+        <item name="android:buttonBarStyle">@style/ButtonBar</item>
+        <item name="android:buttonStyle">@style/Button</item>
+    </style>
+
+    <style name="CustomTimePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:windowBackground">@color/tanAccent</item>
+        <item name="android:buttonBarStyle">@style/ButtonBar</item>
+        <item name="android:buttonStyle">@style/Button</item>
+    </style>
+
+    <style name="ButtonBar" parent="Widget.AppCompat.ButtonBar.AlertDialog">
+        <item name="android:background">@color/tanAccent</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+<!--        <item name="android:textColor">@android:color/tanAccent</item>-->
+        <item name="android:textColor">@color/tanAccent</item>
+    </style>
+
+
+
+    <style name="Theme.AndresApp" parent="Base.Theme.AndresApp" />
+</resources>

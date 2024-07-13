@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Andre\'s App</string>
+
+    <string-array name="amino_acids_full_txt">
+        <item>Do dishes</item>
+        <item>Wash car</item>
+        <item>Walk dog</item>
+        <item>Clean sink</item>
+        <item>Pay taxes</item>
+        <item>Empty trash</item>
+        <item>Wake up</item>
+        <item>Call aunt</item>
+        <item>Make breakfast</item>
+
+    </string-array>
+
+    <string-array name="idk_full_txt">
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+
+    </string-array>
+
+
+    <string-array name="idk2_full_txt">
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+
+    </string-array>
+
+
+
+</resources>
